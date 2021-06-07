@@ -16,6 +16,6 @@
 
 ## 使用例
 
-uses: actions/hello-world-docker-action@v1
+uses: actions/docker-action@v1
 with:
   who-to-greet: 'Mona the Octocat'
