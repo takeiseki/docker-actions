@@ -1,5 +1,5 @@
 # コードを実行するコンテナイメージ
-FROM centos:centos7
+FROM alpine:3.10
 
 # アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
 COPY entrypoint.sh /entrypoint.sh
